@@ -52,3 +52,34 @@
     	display: block;
         top: 89.9%; bottom: 3.2%; left: 43%; right: 43%;
     }
+
+.img-fluid-navbar{
+    max-width: 170px;
+    height: auto;
+}
+
+header.masthead {
+    background: url("../img/bg-pattern.png"), #8CC63F;
+    background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#137030), to(#8CC63F));
+    background: url("../img/bg-pattern.png"), linear-gradient(to left, #137030, #8CC63F);
+}
+
+#mainNav .navbar-nav > li > a {
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+  
+#mainNav .navbar-nav > li > a.active {
+  color: #8CC63F !important;
+  background-color: transparent;
+}
+  
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+  color: #8CC63F;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+      background-color: white;
+    }
+}
