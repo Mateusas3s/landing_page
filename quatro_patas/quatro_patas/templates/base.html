@@ -13,10 +13,12 @@
     <!-- CSS and JavaScript customizados para esse template -->
     <link href="{% static 'css/new-age.css' %}" rel="stylesheet">
     <script src="{% static 'js/new-age.js' %}"></script>
+
+    <!-- CSS customizado baseado no Plugin device-mockups CSS -->
+    <link rel="stylesheet" href="{% static 'css/custom-style.css' %}">
+
     <title>4Patas</title>
 </head>
-<body id="page-top">
-    {% block body %}
-    {% endblock %}
-</body>
+{% block body %}
+{% endblock %}
 </html>
