@@ -82,4 +82,23 @@ header.masthead {
     #mainNav {
       background-color: white;
     }
+
+    #mainNav .navbar-nav > li > a,
+    #mainNav .navbar-nav > li > a:focus {
+      color: #333333;
+    }
+}
+
+.row{
+    margin-top: 30px;
+}
+
+.header-content.mx-auto > p {
+    font-size: 1rem;
+}
+
+.header-content.mx-auto > h6.mb-5{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem!important;
 }
