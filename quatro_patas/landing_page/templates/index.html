@@ -1,4 +1,63 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 {% block body %}
-<h1>4Patas</h1>
+<body id="page-top">
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="{% static 'img/logo_color.png' %}" class="img-fluid-navbar" alt="">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-lg-7 my-auto">
+                    <div class="header-content mx-auto">
+                        <img src="{% static 'img/logo_branca.svg' %}" class="img-fluid" alt="">
+                        <h6 class="mb-5">MARKETPLACE DE PETS</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href="https://play.google.com/store?hl=pt_BR" class="">
+                            <img src="{% static 'img/google-play-badge.svg' %}" class="img-fluid" alt="">
+                        </a>
+                        <a href="https://www.apple.com/br/itunes/charts/free-apps/" class="">
+                            <img src="{% static 'img/app-store-badge.svg' %}" class="img-fluid" alt="">
+                        </a>    
+                    </div>
+                </div>
+                <div class="col-lg-5 my-auto">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <img src="{% static 'img/screen.jpg' %}" class="img-fluid" alt="">
+                                </div>
+                                <div class="button"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>  
+</body>
 {% endblock %}
