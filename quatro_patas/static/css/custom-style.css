@@ -59,9 +59,9 @@
 }
 
 header.masthead {
-    background: url("../img/bg-pattern.png"), #8CC63F;
-    background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#137030), to(#8CC63F));
-    background: url("../img/bg-pattern.png"), linear-gradient(to left, #137030, #8CC63F);
+    background: url("../img/bg_animals.png"), #8CC63F;
+    background: url("../img/bg_animals.png"), -webkit-gradient(linear, right top, left top, from(#137030), to(#8CC63F));
+    background: url("../img/bg_animals.png"), linear-gradient(to left, #137030, #8CC63F);
 }
 
 #mainNav .navbar-nav > li > a {
@@ -101,4 +101,9 @@ header.masthead {
     font-size: 1.2rem;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem!important;
+}
+
+.header-content.mx-auto > a > .img-fluid{
+    width: 40%;
+    height: auto;
 }
