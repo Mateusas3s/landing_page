@@ -107,3 +107,7 @@ header.masthead {
     width: 40%;
     height: auto;
 }
+
+section.cta {
+    background-image: url("../img/bg-animal.jpg");
+  }
