@@ -15,19 +15,20 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+                        <a class="nav-link js-scroll-trigger" href="#page-top">Download</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+                        <a class="nav-link js-scroll-trigger" href="#features">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contatos</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Bloco de Download -->
     <header class="masthead">
         <div class="container h-100">
             <div class="row h-100">
@@ -35,7 +36,7 @@
                     <div class="header-content mx-auto">
                         <img src="{% static 'img/logo_branca.svg' %}" class="img-fluid" alt="">
                         <h6 class="mb-5">MARKETPLACE DE PETS</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>O aplicativo QuatroPatas está dísponível para sistemas Android e iOS.</p>
                         <a href="https://play.google.com/store?hl=pt_BR" class="">
                             <img src="{% static 'img/google-play-badge.svg' %}" class="img-fluid" alt="">
                         </a>
@@ -59,5 +60,96 @@
             </div>
         </div>
     </header>  
+    
+    <!-- Pontos principais do App -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>CONHEÇA MAIS NOSSO APP</h2>
+                <p class="text-muted">Serviços e produtos de qualidade para o cuidado de seu pet com um preço justo!</p>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 my-auto">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="feature-item">
+                                    <img src="{% static 'img/dog.svg' %}" alt="Cuidado e Carinho" class="img-fluid">
+                                    <h3>Cuidado e Carinho</h3>
+                                    <p class="text-muted">Marketplace que te auxilia a cuidar do seu pet!</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="feature-item">
+                                    <img src="{% static 'img/bathing.svg' %}" alt="Produtos de Qualidade" class="img-fluid">
+                                    <h3>Produtos de Qualidade</h3>
+                                    <p class="text-muted">Dispomos os melhores produtos, lojas, veterinários e afins!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="feature-item">
+                                    <img src="{% static 'img/syringe.svg' %}" alt="Ótimos Serviços" class="img-fluid">
+                                    <h3>Ótimos Serviços</h3>
+                                    <p class="text-muted">Oferecemos serviços, como calendário de vacinas, rações indicadas, e até dog walkers!</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="feature-item">
+                                    <img src="{% static 'img/money-bag.svg' %}" alt="Baixo Custo" class="img-fluid">
+                                    <h3>Baixo Custo</h3>
+                                    <p class="text-muted">Tudo isso por um preço justo!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco de Download -->
+    <section class="cta">
+        <div class="cta-content">
+            <div class="container">
+                <h2>O melhor para o seu pet você encontra no<br>QuatroPatas!</h2>
+                <a href="#page-top" class="btn btn-outline btn-xl js-scroll-trigger">Vamos lá. Baixe agora!</a>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    
+    <!-- Bloco de Download -->
+    <section class="contact bg-primary" id="contact">
+        <div class="container">
+            <h2>Siga-nos nas mídia sociais!</h2>
+            <ul class="list-inline list-social">
+                <li class="list-inline-item social-twitter">
+                    <a href="https://twitter.com/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item social-facebook">
+                    <a href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item social-google-plus">
+                    <a href="https://plus.google.com/">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- Bloco de Download -->
+    <footer>
+        <div class="container">
+            <p>&copy; QuatroPatas 2019. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 {% endblock %}
