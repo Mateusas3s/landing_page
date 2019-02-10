@@ -110,4 +110,9 @@ header.masthead {
 
 section.cta {
     background-image: url("../img/bg-animal.jpg");
-  }
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    border-color: #8CC63F;
+    background-color: #8CC63F;
+}
