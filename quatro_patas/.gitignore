@@ -1,0 +1,5 @@
+db.sqlite3
+landing_page/__pycache__
+landing_page/migrations
+
+quatro_patas/__pycache__
